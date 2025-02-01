@@ -399,7 +399,12 @@ h3{
     gap: 1rem;
     align-items: center;
   }  
+
+
   .imagesection img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 4rem 4rem 0rem 4rem;
   }
   .namesection{
@@ -506,5 +511,18 @@ h3{
   margin-top: 1rem;
   color: white;
   padding: 2rem;
+}
+
+.buycypherpage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagesection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 }

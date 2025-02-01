@@ -11,16 +11,8 @@ const HeaderComponent = () => {
                     <h2 className='bouncer animate__animated animate__slideInDown animate__fast'>The Blockchain&rsquo;s &apos;Goodest Boy&apos;</h2>
                     <p className="bouncer animate__animated animate__slideInDown animate__fast">CypherPup is not just a meme coin—it&apos;s a groundbreaking movement that combines the infectious charm of meme culture with the transformative power of blockchain technology. Designed to lead rather than follow, CypherPup is carving its own trail in the crypto world. </p>
                     <div className='buycypherpage bounce'>
-                    <Image
-                        src="/images/doggo.png" // Public folder path
-                        alt="Example Image"
-                        width={60} // Set width
-                        height={95} // Set height
-                        priority // Ensures it loads faster
-                        className='responsive-image'
-                    />
                     <button className='buycypher' >
-                        <a href="https://cypherium.com/cypherpup">Buy CPHP Presale Now!</a>
+                        <a href="">Buy CPHP Presale Now!</a>
                     </button>
                     </div>
                 </div>
