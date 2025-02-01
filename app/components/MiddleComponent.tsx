@@ -11,6 +11,7 @@ const MiddleComponent = () => {
                 width={150} // Set width
                 height={163} // Set height
                 priority // Ensures it loads faster
+                layout="intrinsic" // Keeps aspect ratio based on width and height
             />
         </div>
         </section>

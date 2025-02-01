@@ -20,7 +20,7 @@ const HeaderComponent = () => {
                         className='responsive-image'
                     />
                     <button className='buycypher' >
-                        <a href="https://cypherium.com/cypherpup">BUY CPHP PRESALE NOW!</a>
+                        <a href="https://cypherium.com/cypherpup">Buy CPHP Presale Now!</a>
                     </button>
                     </div>
                 </div>
