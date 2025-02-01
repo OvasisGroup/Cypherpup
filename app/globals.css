@@ -470,4 +470,40 @@ h3{
   .thepark {
     background-color: #f5f1ee;
 }
+.parkleft h1{
+  color: #9d8f86;
+  font-weight: 900;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.parkleft h4{
+  text-align: center;
+}
+
+
+.parkleft h2{
+  color: #000000;
+  font-weight: 900;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.parkleft p{
+  color: #000000;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.standoutbox{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+  color: white;
+  padding: 2rem;
+}
 }
