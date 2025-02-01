@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 :root {
@@ -40,7 +41,7 @@ a {
 }
 
 p{
-  font-family: "Montserrat", serif;
+  font-family: "Roboto", serif;
   font-weight: 300;
 }
 
@@ -385,3 +386,40 @@ h3{
   text-align: center;
 }
 
+
+
+@media (max-width: 960px) {
+  .maheader{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+    align-items: center;
+  }  
+  .imagesection img{
+    display: none;
+    /* padding: 4rem; */
+  }
+  .namesection{
+    padding: 2rem;
+  }
+
+  .namesection h1{
+    font-size: 3rem;
+    text-align: center;
+  }
+  .namesection h2{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .namesection p{
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .mainheader{
+    height: inherit;
+  }
+  .buycypherpage img{
+    display: none;
+  }
+}

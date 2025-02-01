@@ -17,6 +17,7 @@ const HeaderComponent = () => {
                         width={60} // Set width
                         height={95} // Set height
                         priority // Ensures it loads faster
+                        className='responsive-image'
                     />
                     <button className='buycypher' >
                         <a href="https://cypherium.com/cypherpup">BUY CPHP PRESALE NOW!</a>
@@ -26,10 +27,12 @@ const HeaderComponent = () => {
                 <div className='imagesection bounce'>
                     <Image
                         src="/images/cypherpuppyone.png" // Public folder path
-                        alt="Example Image"
+                        alt="CypherPup"
                         width={412} // Set width
                         height={533} // Set height
                         priority // Ensures it loads faster
+                        layout="intrinsic" // Keeps aspect ratio based on width and height
+                        className='responsive-image'
                     />
                 </div>
 
