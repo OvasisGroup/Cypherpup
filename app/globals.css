@@ -131,7 +131,7 @@ h3{
 .buycypher{
     background-color: #99755d;
     border: none;
-    border-radius: 0rem 2rem 2rem 2rem;
+    border-radius: 2rem 2rem 2rem 2rem;
     padding: 1rem 3rem;
     font-size: 1.2rem;
     color: #ffffff;
@@ -396,8 +396,7 @@ h3{
     align-items: center;
   }  
   .imagesection img{
-    display: none;
-    /* padding: 4rem; */
+    padding: 4rem 4rem 0rem 4rem;
   }
   .namesection{
     padding: 2rem;
@@ -421,5 +420,8 @@ h3{
   }
   .buycypherpage img{
     display: none;
+  }
+  .buycypherpage{
+    border-radius: 2rem;
   }
 }
