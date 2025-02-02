@@ -9,19 +9,21 @@ const HeaderComponent = () => {
                 <div className='namesection'>
                     <h1 className='bouncer animate__animated animate__slideInDown animate__fast'>Meet CypherPup:</h1>
                     <h2 className='bouncer animate__animated animate__slideInDown animate__fast'>The Blockchain&rsquo;s &apos;Goodest Boy&apos;</h2>
-                    <p className="bouncer animate__animated animate__slideInDown animate__fast">CypherPup is not just a meme coin—it&apos;s a groundbreaking movement that combines the infectious charm of meme culture with the transformative power of blockchain technology. Designed to lead rather than follow, CypherPup is carving its own trail in the crypto world. </p>
+                    <p><span>CypherPup isn’t just a meme—</span>it’s a movement. Built on Cypherium, powered by innovation,
+                    and driven by YOU.</p>
+                    <p>🔥 Join the Pack – Secure Your Spot in CypherPup’s Fair Launch! 🚀</p>
                     <div className='buycypherpage bounce'>
                     <button className='buycypher' >
-                        <a href="">Buy CPHP Presale Now!</a>
+                        <a href="">Buy CPHP Now!</a>
                     </button>
                     </div>
                 </div>
                 <div className='imagesection bounce'>
                     <Image
-                        src="/images/cypherpuppyone.png" // Public folder path
+                        src="/images/sideimage.png" // Public folder path
                         alt="CypherPup"
-                        width={412} // Set width
-                        height={533} // Set height
+                        width={541} // Set width
+                        height={601} // Set height
                         priority // Ensures it loads faster
                         layout="intrinsic" // Keeps aspect ratio based on width and height
                         className='responsive-image'

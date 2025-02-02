@@ -3,7 +3,7 @@
 import React from 'react'
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import { Wallet, Ellipsis } from "lucide-react";
+import { Wallet, AlignJustify } from "lucide-react";
 
 const NavigationComponent = () => {
 
@@ -41,7 +41,7 @@ const NavigationComponent = () => {
                             </li>
                             <li>
                                 <a href="#">
-                                <Ellipsis size={30} />
+                                <AlignJustify size={30} />
                                 </a>
                             </li>
                         </ul>
