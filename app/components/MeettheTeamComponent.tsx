@@ -1,0 +1,81 @@
+"use client";
+
+import React from 'react'
+import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+const teamMembers = [
+    {
+        name: "Alice Johnson",
+        role: "Project Manager",
+        image: "/images/team.png",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta animi quos laudantium nostrum, iusto quas quae ipsam maiores tempora repellendus corrupti, ratione ullam deleniti alias, quod consectetur magnam ipsum porro?",
+    },
+    {
+        name: "Michael Smith",
+        role: "Software Engineer",
+        image: "/images/team.png",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta animi quos laudantium nostrum, iusto quas quae ipsam maiores tempora repellendus corrupti, ratione ullam deleniti alias, quod consectetur magnam ipsum porro?",
+    },
+    {
+        name: "Emma Davis",
+        role: "UI/UX Designer",
+        image: "/images/team.png",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta animi quos laudantium nostrum, iusto quas quae ipsam maiores tempora repellendus corrupti, ratione ullam deleniti alias, quod consectetur magnam ipsum porro?",
+    },
+    {
+        name: "James Brown",
+        role: "DevOps Engineer",
+        image: "/images/team.png",
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta animi quos laudantium nostrum, iusto quas quae ipsam maiores tempora repellendus corrupti, ratione ullam deleniti alias, quod consectetur magnam ipsum porro?",
+    },
+];
+
+const MeettheTeamComponent = () => {
+    return (
+        <section className='meettheteam'>
+            <div className='binca'>
+                <h2>Meet The Team</h2>
+            </div>
+            <div className='meettheteamheader'>
+                <Swiper
+                    modules={[Navigation, Pagination, Autoplay]}
+                    spaceBetween={20}
+                    slidesPerView={1}
+                    autoplay={{ delay: 3000 }}
+                    // navigation
+                    // pagination={{ clickable: true }}
+                    breakpoints={{
+                        640: { slidesPerView: 1 },
+                        768: { slidesPerView: 2 },
+                        1024: { slidesPerView: 3 },
+                    }}
+                    className="rounded-lg shadow-lg"
+                >
+                    {teamMembers.map((member, index) => (
+                        <SwiperSlide key={index} className="p-4 bg-white rounded-lg text-center shadow-md">
+                            <div className='team-image'>
+                                <Image
+                                    src={member.image}
+                                    alt={member.name}
+                                    width={150} // Set width
+                                    height={150} // Set height
+                                    priority // Ensures it loads faster
+                                />
+                                <h3 className="">{member.name}</h3>
+                                <h4 className="">{member.role}</h4>
+                                <p>{member.description}</p>
+                            </div>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </div>
+        </section>
+    )
+}
+
+export default MeettheTeamComponent

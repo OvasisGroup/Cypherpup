@@ -640,3 +640,58 @@ h3{
     padding: 2rem;
   }
 }
+
+.meettheteam{
+  background-color: #000000;
+}
+
+.meettheteamheader{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 0rem;
+}
+
+.team-image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.team-image h3{
+  color: #9b7663;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: .5rem;
+}
+
+.team-image h4{
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: .5rem;
+}
+
+.team-image p{
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-top: .5rem;
+  padding: 0rem 1rem;
+}
+
+.binca{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+}
+
+.binca h2{
+  background-color: #9b7663;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 0rem 0rem 1rem 1rem;
+  font-weight: 900;
+}
