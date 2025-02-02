@@ -36,7 +36,12 @@ const FooterComponent = () => {
             <p>Discord</p>
           </div>
         </div>
+       
       </div>
+      <div className='copyright'>
+          <p>©2025. CypherPup. All rights reserved.</p>
+          <p>Terms and Conditions <span>Preview Agreement</span></p>
+        </div>
     </section>
   )
 }

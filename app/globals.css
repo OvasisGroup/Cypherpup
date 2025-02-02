@@ -557,3 +557,86 @@ h3{
     gap: 2rem;
   }
 }
+
+.sides h4{
+  color: #9b7663;
+  font-weight: 900;
+  font-size: 1rem;
+  margin-bottom: .75rem;
+}
+
+.sides p{
+  color: #000000;
+  font-weight: 300;
+  font-size: 1rem;
+  padding-bottom: .5rem;
+  margin-bottom: .5rem;
+  border-bottom: lightgrey 1px solid;
+}
+
+.copyright{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0rem;
+  width: 100%;
+}
+
+.technomicsheader{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 0rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.imgsection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deflationary{
+  border: 1px solid #9b7663;
+  margin: 1rem 0rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.deflationary h3{
+  color: #9b7663;
+  font-weight: 900;
+}
+
+.teknomheader h1{
+  color: #9b7663;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.teknomheader h2{
+  color: #000000;
+  font-weight: 900;
+  margin: 1rem 0rem;
+}
+
+.teknomheader p{
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 960px) {
+  .technomicsheader{
+    padding: 3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .teknom{
+    padding: 2rem;
+  }
+}
