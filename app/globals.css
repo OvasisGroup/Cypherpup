@@ -83,7 +83,7 @@ h3{
 
 .mainheader{
   background-color: black;
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   background-image: url("/images/cypherPupbgtwo.jpg");
   background-size: cover;
@@ -101,6 +101,7 @@ h3{
   gap: 3rem;
   justify-content: space-between;
   align-items: center;
+  padding-top: 3rem;
 }
 
 .imagesection{
@@ -694,4 +695,177 @@ h3{
   padding: 1rem 2rem;
   border-radius: 0rem 0rem 1rem 1rem;
   font-weight: 900;
+}
+
+.contactsheader{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+}
+
+.contactsheader .input-field{
+  background-color: #ffffff;
+  border: 1px solid #9b7663;
+  border-radius: .25rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-weight: 300;
+  color: #9b7663;
+
+}
+
+.contactsheader textarea{
+  background-color: #ffffff;
+  border: 1px solid #9b7663;
+  border-radius: .25rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-weight: 300;
+  color: #9b7663;
+}
+
+.contacts-left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.contactsheader button{
+  background-color: #9b7663;
+  border: 1px solid #ffffff;
+  border-radius: .25rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.contacts{
+  max-width: 700px;
+  margin: 3rem auto;
+}
+
+.bincat{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  padding: 0rem 2rem;
+}
+
+.bincat h2{
+  color: #9b7663;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.bincat p{
+  color: #000000;
+  font-weight: 300;
+  padding: 0rem 2rem;
+}
+
+.subscription{
+  background-color: #000000;
+  margin: 3rem auto;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.subscription p{
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.subscriptionheader input{
+  background-color: #ffffff;
+  border: 1px solid #9b7663;
+  border-radius: .25rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-weight: 300;
+  color: #9b7663;
+}
+
+.subscriptionheader button{
+  background-color: #9b7663;
+  border: none;
+  border-radius: .25rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.navgat{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navigationheader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+}
+
+
+.navbar.scrolled {
+  background-color: #f5f1ee;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar{
+  padding: .75rem 2rem;
+}
+
+.navbar ul{
+  display: flex;
+  list-style: none;
+  color: #9b7663;
+  align-items: center;
+}
+
+.navbar ul li{
+  margin-right: 2rem;
+}
+
+.mainwallet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: .5rem 2rem;
+  border-radius: 2rem;
+  background-color: #9b7663;
+  color: #ffffff;
+  font-weight: 700;
 }

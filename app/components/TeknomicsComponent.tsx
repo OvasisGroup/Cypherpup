@@ -13,6 +13,7 @@ const TeknomicsComponent = () => {
                         width={400} // Set width
                         height={400} // Set height
                         priority // Ensures it loads faster
+                        layout="intrinsic" // Keeps aspect ratio based on width and height
                     />
                 </div>
                 <div className='teknom'>
