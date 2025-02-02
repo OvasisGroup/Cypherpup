@@ -1,4 +1,5 @@
 import AboutComponent from "./components/AboutComponent";
+import FooterComponent from "./components/FooterComponent";
 import HeaderComponent from "./components/HeaderComponent";
 import MiddleComponent from "./components/MiddleComponent";
 import TheparkComponent from "./components/TheparkComponent";
@@ -13,6 +14,8 @@ export default function Home() {
       <TheparkComponent/>
       <MiddleComponent/>
       <Thestandout/>
+
+      <FooterComponent/>
     </div>
   );
 }
