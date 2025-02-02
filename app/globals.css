@@ -425,7 +425,7 @@ h3{
   }
 
   .mainheader{
-    height: inherit;
+    height: fit-content;
   }
   .buycypherpage img{
     display: none;
