@@ -106,7 +106,7 @@ h3{
 
 .imagesection{
   display: flex;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
   width: 100%;
 }
@@ -114,7 +114,7 @@ h3{
 .namesection h1{
   color: white;
   font-weight: 900;
-  font-size:5rem;
+  font-size: 3.5rem;
   line-height: 4rem;
 }
 
@@ -122,14 +122,16 @@ h3{
   color: #e7dbcb;
   font-weight: 900;
   font-size: 2rem;
-  margin: 1rem 0;
+  margin: .5rem 0;
 }
+
+
 
 .namesection p{
   color: white;
   font-weight: 300;
-  font-size: 1.2rem;
-  line-height: 1.6rem;
+  font-size: 1rem;
+  line-height: 1.4rem;
   margin-bottom: .75rem;
 }
 
@@ -155,6 +157,7 @@ h3{
   justify-content: left;
   align-items: center;
   margin-top: 2rem;
+  color: white;
 }
 
 .buycypherpage img{
