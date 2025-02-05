@@ -42,7 +42,7 @@ a {
 
 p{
   font-family: "Poppins", serif;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5rem;
 }
 
@@ -114,7 +114,7 @@ h3{
 .namesection h1{
   color: white;
   font-weight: 900;
-  font-size: 3.5rem;
+  font-size: 4rem;
   line-height: 4rem;
 }
 
@@ -126,9 +126,9 @@ h3{
 }
 
 .aboutsection{
-  background-image: url("/images/cypherPupbgthree.jpg");
+  background-image: url("/images/cypherPupbgfour.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 
@@ -883,4 +883,50 @@ nav{
   background-color: #9b7663;
   color: #ffffff;
   font-weight: 700;
+}
+
+.socials{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  border: .025rem solid white;
+  width: fit-content;
+  padding: .75rem 1rem;
+  border-radius: 1rem;
+}
+
+.socials h4{
+  color: white;
+}
+
+.socials img{
+  padding-right: 1rem;
+  border-right: 1px solid white;
+}
+
+.iconz{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: .25rem;
+  margin-top: 3rem;
+  color: grey;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  width: fit-content;
+  padding: 1rem 2rem;
+  transition: all 0.3s ease-in-out;
+  border-radius: 1rem;
+}
+
+.iconz:hover{
+  background-color: grey;
+  color: black;
+  width: fit-content;
+  padding: 1rem 2rem;
+  transition: all 0.3s ease-in-out;
+  border-radius: 1rem;
 }
