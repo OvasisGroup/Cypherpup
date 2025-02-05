@@ -30,7 +30,7 @@ const HeaderComponent = () => {
                     </div>
                 </div>
                 <div className='imagesection bounce'>
-                    <Image
+                    {/* <Image
                         src="/images/sideimage.png" // Public folder path
                         alt="CypherPup"
                         width={475} // Set width
@@ -38,7 +38,7 @@ const HeaderComponent = () => {
                         priority // Ensures it loads faster
                         layout="intrinsic" // Keeps aspect ratio based on width and height
                         className='responsive-image'
-                    />
+                    /> */}
                 </div>
 
             </div>
