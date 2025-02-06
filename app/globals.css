@@ -785,26 +785,26 @@ h3 {
 }
 
 .contactsheader .input-field {
-  background-color: #ffffff;
+  background-color: #000;
   border: 1px solid #9b7663;
   border-radius: .25rem;
   padding: 1rem;
   margin-bottom: 1rem;
   width: 100%;
-  font-weight: 300;
-  color: #9b7663;
+  font-weight: 600;
+  color: #fff;
 
 }
 
 .contactsheader textarea {
-  background-color: #ffffff;
+  background-color: #000;
   border: 1px solid #9b7663;
   border-radius: .25rem;
   padding: 1rem;
   margin-bottom: 1rem;
   width: 100%;
-  font-weight: 300;
-  color: #9b7663;
+  font-weight: 600;
+  color: #fff;
 }
 
 .contacts-left {
@@ -848,7 +848,7 @@ h3 {
 }
 
 .bincat p {
-  color: #000000;
+  color: #fff;
   font-weight: 300;
   padding: 0rem 2rem;
 }
