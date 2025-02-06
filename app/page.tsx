@@ -16,8 +16,9 @@ export default function Home() {
     <div>
       <NavigationComponent/>
       <HeaderComponent/>
-      <AboutComponent/>
       <TheparkComponent/>
+      <AboutComponent/>
+      
       <MiddleComponent/>
       <Thestandout/>
       <TeknomicsComponent/>

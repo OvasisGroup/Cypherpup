@@ -4,44 +4,50 @@ import Image from "next/image";
 const AboutComponent = () => {
     return (
         <section className='aboutsection'>
-            <div className='aboutheader'>
-                <h1 className=' animate__animated animate__slideInUp animate__fast'>CypherPup is more than a coin—it&apos;s a community-driven mascot for the blockchain generation. Energetic, loyal, and innovative, CypherPup brings and purpose to crypto.</h1>
-                <h2>At the core of the CypherPup ecosystem are three distinct characters, each symbolizing a unique aspect of the project’s vision:</h2>
-            </div>
+
             <div className='cards-section'>
                 <div className='card-single'>
-                    <div className='card-single-header'>
+                    <div className='card-single-header animate__animated fadeInUp'>
                         <Image
-                            src="/images/doggo.png" // Public folder path
+                            src="/images/1000090655.png" // Public folder path
                             alt="Example Image"
-                            width={60} // Set width
-                            height={95} // Set height
+                            width={80} // Set width
+                            height={142.5} // Set height
                             priority // Ensures it loads faster
                         />
                         <h3>TechnoPup</h3>
-                        <p>A tech-savvy pioneer with neon goggles, representing innovation and the drive to build cutting-edge blockchain solutions</p>
+                        <h4>Smart Contracts & DeFi Innovation</h4>
+                        <p>TechnoPup powers secure, high-speed smart contracts that drive staking, liquidity pools, and
+yield-generating mechanics, ensuring CypherPup remains stable, decentralized, and fair for all
+participants in the ecosystem.</p>
                     </div>
-                    <div className='card-single-header'>
+                    <div className='card-single-header animate__animated fadeInUp'>
                         <Image
                             src="/images/doggo.png" // Public folder path
                             alt="Example Image"
-                            width={60} // Set width
-                            height={95} // Set height
+                            width={90} // Set width
+                            height={142.5} // Set height
                             priority // Ensures it loads faster
                         />
                         <h3>HoloPup</h3>
-                        <p>The futuristic visionary, boasting holographic fur and glowing circuits, showcasing the advanced technology behind CypherPup</p>
+                        <h4>AI, NFTs & Digital Ownership</h4>
+                        <p>HoloPup is at the forefront of NFTs, tokenized assets, and metaverse interactions, integrating
+AI-driven automation and transparency to enhance verifiable ownership, digital collectibles, and
+blockchain-based identity solutions.</p>
                     </div>
-                    <div className='card-single-header'>
+                    <div className='card-single-header animate__animated fadeInUp'>
                         <Image
                             src="/images/doggo.png" // Public folder path
                             alt="Example Image"
-                            width={60} // Set width
-                            height={95} // Set height
+                            width={90} // Set width
+                            height={142.5} // Set height
                             priority // Ensures it loads faster
                         />
                         <h3>CyberPup</h3>
-                        <p>The bold explorer, navigating cross-chain opportunities and fostering unity within the blockchain community</p>
+                        <h4>Cross-Chain Interoperability & Scalability</h4>
+                        <p>CyberPup enables frictionless cross-chain functionality, ensuring that CypherPup can
+seamlessly integrate with multiple blockchains, enhancing accessibility, expanding market
+reach, and increasing overall liquidity.</p>
                     </div>
                 </div>
             </div>

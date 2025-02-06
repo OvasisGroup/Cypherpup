@@ -6,10 +6,18 @@ const TheparkComponent = () => {
         <section className='thepark'>
             <div className='theparkheader'>
                 <div className='parkleft'>
+                    <Image
+                        src="/images/Cypherium-Logo.png" // Public folder path
+                        alt="Example Image"
+                        width={200} // Set width
+                        height={48} // Set height
+                        priority // Ensures it loads faster
+                    />
                     <h1>Join the Pack:</h1>
-                    <h2>CypherPup is Leading the Future </h2>
-                    <p>CypherPup is about more than just technology; it&apos;s about building a community that shares a vision for the future. Whether it’s TechnoPup shaping the blockchain, HoloPup illuminating possibilities, or CyberPup uniting the crypto world, CypherPup welcomes everyone to be part of its journey.</p>
-                    <h4>This isn’t just a project—it’s a movement. Join the pack, and together, let&apos;s redefine what meme coins can achieve.</h4>
+                    <div className='animate__animated fadeInUp'>
+                        <h2 className=' animate__animated animate__slideInUp'>CypherPup isn’t just a meme—it’s a movement. Built on Cypherium, powered by innovation,
+                            and driven by YOU.</h2>
+                    </div>
                 </div>
                 <div className='parkright'>
                     <div className='parkrightbox'>
