@@ -10,29 +10,23 @@ import "swiper/css/pagination";
 
 const teamMembers = [
     {
-        name: "Alice Johnson",
-        role: "Project Manager",
-        image: "/images/team.png",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta animi quos laudantium nostrum, iusto quas quae ipsam maiores tempora repellendus corrupti, ratione ullam deleniti alias, quod consectetur magnam ipsum porro?",
+        name: "Enock Kipkoech",
+        role: "",
+        image: "/images/enock.png",
+        description: "Innovative blockchain developer pioneering secure, scalable, and decentralized solutions for the future.",
     },
     {
-        name: "Michael Smith",
-        role: "Software Engineer",
-        image: "/images/team.png",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta animi quos laudantium nostrum, iusto quas quae ipsam maiores tempora repellendus corrupti, ratione ullam deleniti alias, quod consectetur magnam ipsum porro?",
+        name: "Monte David",
+        role: "",
+        image: "/images/monte.png",
+        description: "Experienced full-stack developer building modern web apps and blockchain solutions.",
     },
     {
-        name: "Emma Davis",
-        role: "UI/UX Designer",
-        image: "/images/team.png",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta animi quos laudantium nostrum, iusto quas quae ipsam maiores tempora repellendus corrupti, ratione ullam deleniti alias, quod consectetur magnam ipsum porro?",
-    },
-    {
-        name: "James Brown",
-        role: "DevOps Engineer",
-        image: "/images/team.png",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta animi quos laudantium nostrum, iusto quas quae ipsam maiores tempora repellendus corrupti, ratione ullam deleniti alias, quod consectetur magnam ipsum porro?",
-    },
+        name: "Pavin Kiptoo",
+        role: "",
+        image: "/images/pavin.png",
+        description: "Blockchain Dev, Full-time Degen with hands-on experience in decentralized finance and cryptocurrency.",
+    }
 ];
 
 const MeettheTeamComponent = () => {
@@ -62,8 +56,8 @@ const MeettheTeamComponent = () => {
                                 <Image
                                     src={member.image}
                                     alt={member.name}
-                                    width={150} // Set width
-                                    height={150} // Set height
+                                    width={200} // Set width
+                                    height={200} // Set height
                                     priority // Ensures it loads faster
                                 />
                                 <h3 className="">{member.name}</h3>
