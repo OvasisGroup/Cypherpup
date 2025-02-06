@@ -2,8 +2,8 @@ import React from 'react'
 
 const ContactsComponent = () => {
     return (
-        <section className='contacts'>
-            <div>
+        <section className='contactsmain'>
+            <div className='contacts'>
                 <div className='bincat'>
                     <h2>Contact Us</h2>
                     <p>We&apos;d love to hear from you! Fill out the form below and we&apos;ll get back to you as soon as possible.</p>

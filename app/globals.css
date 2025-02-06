@@ -160,9 +160,12 @@ h3 {
 }
 
 .aboutsection {
-  background-image: url("/images/cypherPupbgfour.jpg");
+  background-image: url("/images/abt.png");
   background-size: cover;
-  background-position: top;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
 }
 
 
@@ -255,7 +258,7 @@ h3 {
 
 .card-single-header {
   background-color: black;
-  border: .015rem solid white;
+  border: .015rem solid gray;
   padding: 2rem;
   border-radius: 1rem;
   display: flex;
@@ -775,6 +778,15 @@ h3 {
   font-weight: 900;
 }
 
+.contactsmain{
+  background-image: url("/images/contacts.png");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
 .contactsheader {
   display: flex;
   flex-direction: column;
@@ -782,6 +794,7 @@ h3 {
   align-items: center;
   width: 100%;
   padding: 2rem;
+  height: 40vh;
 }
 
 .contactsheader .input-field {
