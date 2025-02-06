@@ -8,6 +8,19 @@ export default function Milestone() {
     return (
         <section>
             <NavigationComponent />
+            <div className='milestonehead'>
+                
+                <Image
+                            src="/images/pakni.png" // Public folder path
+                            alt="CypherPup"
+                            width={800} // Set width
+                            height={285} // Set height
+                            priority // Ensures it loads faster
+                            layout="intrinsic" // Keeps aspect ratio based on width and height
+                            className='responsive-image'
+                        />
+                        <h1>Our Roadmap</h1>
+            </div>
             <div className='timeline'>
                 <div className='container left-container'>
                     <div className='text-box'>

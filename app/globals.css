@@ -98,6 +98,35 @@ h3 {
   align-items: center;
 }
 
+
+.milestonehead {
+    width: 100%;
+    height: 50vh;
+    background-image: url("/images/milestone.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+  }
+
+.milestonehead h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.milestonehead img{
+  margin-top: 3rem;
+}
 .maheader {
   max-width: 1200px;
   margin: 0 auto;
@@ -573,6 +602,10 @@ h3 {
   }
 }
 
+.footer-left {
+  color: white;
+}
+
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -612,12 +645,12 @@ h3 {
 }
 
 .sides p {
-  color: #000000;
+  color: #fff;
   font-weight: 300;
   font-size: 1rem;
   padding-bottom: .5rem;
   margin-bottom: .5rem;
-  border-bottom: lightgrey 1px solid;
+  border-bottom: #9b7663 1px solid;
 }
 
 .copyright {
@@ -1110,4 +1143,24 @@ nav {
 
 .text-box div{
   margin: 1rem 0rem;
+}
+
+.antisocials{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.antisocials h4{
+  color: #9b7663;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.antisocials p{
+
 }

@@ -4,7 +4,38 @@ import Image from "next/image";
 const FooterComponent = () => {
   return (
     <section>
+      <div className='smedia'>
+        <div className='antisocials'>
+          <h4>JOIN US ON OUR SOCIAL MEDIA</h4>
+
+          <div className='socials'>
+            <p>98 on</p>
+            <Image
+              src="/images/SVG/telegram.svg" // Public folder path
+              alt="CypherPup"
+              width={50} // Set width
+              height={50} // Set height
+              priority // Ensures it loads faster
+              layout="intrinsic" // Keeps aspect ratio based on width and height
+              className='responsive-image'
+            />
+            <p>98 on</p>
+            <Image
+              src="/images/SVG/x.svg" // Public folder path
+              alt="CypherPup"
+              width={50} // Set width
+              height={50} // Set height
+              priority // Ensures it loads faster
+              layout="intrinsic" // Keeps aspect ratio based on width and height
+              className='responsive-image'
+            />
+
+
+          </div>
+        </div>
+      </div>
       <div className='footer-container'>
+
         <div className='footer-left'>
           <Image
             src="/images/cypherpup-logo.png" // Public folder path
@@ -36,12 +67,12 @@ const FooterComponent = () => {
             <p>Discord</p>
           </div>
         </div>
-       
+
       </div>
       <div className='copyright'>
-          <p>©2025. CypherPup. All rights reserved.</p>
-          <p>Terms and Conditions <span>Preview Agreement</span></p>
-        </div>
+        <p>©2025. CypherPup. All rights reserved.</p>
+        <p>Terms and Conditions <span>Preview Agreement</span></p>
+      </div>
     </section>
   )
 }
