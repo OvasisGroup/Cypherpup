@@ -48,8 +48,7 @@ const NavigationComponent = () => {
                                 {open && (
                                     <div className="dropdownMenu">
                                         <button className="dropdownItem" onClick={() => router.push("/milestone")}>Roadmap</button>
-                                        <button className="dropdownItem" onClick={() => alert("Settings Clicked")}>Settings</button>
-                                        <button className="dropdownItem" onClick={() => alert("Logout Clicked")}>Logout</button>
+                                        <button className="dropdownItem" id="#about">Features</button>
                                     </div>
                                 )}
                             </li>
@@ -57,6 +56,7 @@ const NavigationComponent = () => {
                     </nav>
                 </div>
             </div>
+
         </section>
     )
 }

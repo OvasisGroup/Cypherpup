@@ -11,6 +11,7 @@ import Thestandout from "./components/Thestandout";
 
 
 export default function Home() {
+  
   return (
     <div>
       <NavigationComponent/>

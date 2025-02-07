@@ -163,9 +163,17 @@ h3 {
   background-image: url("/images/abt.png");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   height: 70vh;
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 768px){
+  .aboutsection{
+    height: fit-content;
+  }
+  
 }
 
 
@@ -289,9 +297,10 @@ h3 {
 }
 
 .thepark {
-  background-color: #000000;
-  margin-top: 1rem;
-  padding: 3rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .theparkheader {
@@ -303,6 +312,18 @@ h3 {
   align-items: center;
   gap: 3rem;
   padding: 3rem 0rem;
+}
+
+@media screen and (max-width: 768px){
+  .theparkheader {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+    padding: 3rem 1.5rem;
+  }
 }
 
 .parkleft h1 {
@@ -319,7 +340,7 @@ h3 {
 }
 
 .parkleft p {
-  color: #000000;
+  color: #fff;
   font-weight: 300;
   font-size: 1.1rem;
   margin-bottom: 1rem;
@@ -329,12 +350,29 @@ h3 {
   margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 960px){
+  .parkleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .parkleft img{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+}
+
 .parkrightbox {
   background-color: #2f2f30;
   border-radius: .5rem .5rem 0rem 0rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
 
 .parkrightboxtwo {
   background-color: #f1d6a5;
@@ -405,12 +443,24 @@ h3 {
   margin-top: 2rem;
 }
 
+@media screen and (max-width: 960) {
+  .tickbox{
+    padding: .5rem;
+  }
+  .parkrightbox h3 {
+    background-color: #2f2f30;
+    border-radius: .5rem .5rem 0rem 0rem;
+    display: flex;
+  }
+}
+
 .standout {
   background-color: #000000;
   background-image: url("/images/abtng.png");
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  background-attachment: fixed;
+  height: 60vh;
 }
 
 .standoutpage {
@@ -548,16 +598,7 @@ h3 {
     padding: 2rem;
   }
 
-  .theparkheader {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 2rem;
-  }
 
-  .thepark {
-    background-color: #000000;
-  }
 
   .parkleft h1 {
     color: #9d8f86;
@@ -572,19 +613,28 @@ h3 {
 
 
   .parkleft h2 {
-    color: #000000;
+    color: #fff;
     font-weight: 900;
     font-size: 1rem;
     margin-bottom: 1rem;
     text-align: center;
   }
 
-  .parkleft p {
-    color: #000000;
-    font-weight: 300;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    text-align: center;
+  @media screen and (max-width: 768px){
+    .thepark{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .parkleft h2 {
+      color: #fff;
+      font-weight: 900;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
   }
 
   .standoutbox {
@@ -1017,6 +1067,8 @@ nav {
   border-radius: 1rem;
 }
 
+
+
 .timeline{
   position: relative;
   max-width: 1000px;
@@ -1119,6 +1171,16 @@ nav {
 
 
 @media screen and (max-width: 768px){
+  .mtaani{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .iconz {
+    margin-top: 1rem;
+  }
+
   .timeline{
     margin: 50px auto;
   }
@@ -1275,4 +1337,46 @@ nav {
 
 .dropdownItem:hover {
   background: #f0f0f0;
+}
+
+
+@media screen and (max-width: 960px){
+  .cards-section {
+    padding: 0rem 2rem;
+  }
+  .card-single{
+    margin-top: 2rem;
+  }
+  .card-single-header{
+    margin-bottom: 1rem;
+  }
+  .standout {
+    background-color: #000000;
+    background-image: url("/images/abtng.png");
+    background-size: cover;
+    background-position: center;
+    height: fit-content;
+  }
+
+  .copyrights{
+    max-width: 100%;
+    margin: 2rem auto;
+    color: lightgray;
+    text-align: center;
+    padding: 0rem 2rem;
+  }
+  .contactsmain{
+    height: fit-content;
+  }
+  .contacts {
+    margin: 1rem auto;
+}
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
 }

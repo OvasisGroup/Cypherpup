@@ -6,7 +6,7 @@ const TeknomicsComponent = () => {
     return (
         <section className='technomics'>
             <div className='technomicsheader'>
-            <div className='teknom'>
+                <div className='teknom'>
                     <div className='teknomheader'>
                         <h1>Technomics</h1>
                         <h2>Total Supply</h2>

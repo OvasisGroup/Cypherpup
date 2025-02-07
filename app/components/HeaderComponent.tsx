@@ -14,37 +14,39 @@ const HeaderComponent = () => {
                         and driven by YOU.
                         🔥 <span>Join the Pack</span> – Secure Your Spot in CypherPup’s Fair Launch! <ArrowUpRight size={20} /></p>
                     <div className='buycypherpage'>
-                        
-                       
+
+
                     </div>
                     <div className=''>
-                        
+
                         <div className='socials'>
-                        <Image
-                            src="/images/SVG/telegram.svg" // Public folder path
-                            alt="CypherPup"
-                            width={50} // Set width
-                            height={50} // Set height
-                            priority // Ensures it loads faster
-                            layout="intrinsic" // Keeps aspect ratio based on width and height
-                            className='responsive-image'
-                        />
-                         <Image
-                            src="/images/SVG/x.svg" // Public folder path
-                            alt="CypherPup"
-                            width={50} // Set width
-                            height={50} // Set height
-                            priority // Ensures it loads faster
-                            layout="intrinsic" // Keeps aspect ratio based on width and height
-                            className='responsive-image'
-                        />
-                         <h4>JOIN US ON OUR
-                        <br/>SOCIAL MEDIA</h4>
+                            <Image
+                                src="/images/SVG/telegram.svg" // Public folder path
+                                alt="CypherPup"
+                                width={50} // Set width
+                                height={50} // Set height
+                                priority // Ensures it loads faster
+                                layout="intrinsic" // Keeps aspect ratio based on width and height
+                                className='responsive-image'
+                            />
+                            <Image
+                                src="/images/SVG/x.svg" // Public folder path
+                                alt="CypherPup"
+                                width={50} // Set width
+                                height={50} // Set height
+                                priority // Ensures it loads faster
+                                layout="intrinsic" // Keeps aspect ratio based on width and height
+                                className='responsive-image'
+                            />
+                            <h4>JOIN US ON OUR
+                                <br />SOCIAL MEDIA</h4>
                         </div>
                     </div>
-                    <div className='iconz bounce'>
-                    <h4>GET STARTED</h4>
-                    <ArrowBigRightDash size={20} />
+                    <div className='mtaani'>
+                        <div className='iconz bounce'>
+                            <h4>GET STARTED</h4>
+                            <ArrowBigRightDash size={20} />
+                        </div>
                     </div>
                 </div>
                 <div className='imagesection bounce'>
@@ -60,7 +62,7 @@ const HeaderComponent = () => {
                 </div>
 
             </div>
-            
+
         </section>
     )
 }
