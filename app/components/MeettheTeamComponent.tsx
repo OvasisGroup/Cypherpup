@@ -11,19 +11,19 @@ import "swiper/css/pagination";
 const teamMembers = [
     {
         name: "Enock Kipkoech",
-        role: "",
+        role: "/images/linkedin.png",
         image: "/images/enock.png",
         description: "Innovative blockchain developer pioneering secure, scalable, and decentralized solutions for the future.",
     },
     {
         name: "Monte David",
-        role: "",
+        role: "/images/linkedin.png",
         image: "/images/monte.png",
         description: "Experienced full-stack developer building modern web apps and blockchain solutions.",
     },
     {
         name: "Pavin Kiptoo",
-        role: "",
+        role: "/images/linkedin.png",
         image: "/images/pavin.png",
         description: "Blockchain Dev, Full-time Degen with hands-on experience in decentralized finance and cryptocurrency.",
     }
@@ -61,7 +61,7 @@ const MeettheTeamComponent = () => {
                                     priority // Ensures it loads faster
                                 />
                                 <h3 className="">{member.name}</h3>
-                                <h4 className="">{member.role}</h4>
+                                <a href={member.role}><Image src="/images/linkedin.png" alt="linkedin" width={30} height={30} /></a>
                                 <p>{member.description}</p>
                             </div>
                         </SwiperSlide>

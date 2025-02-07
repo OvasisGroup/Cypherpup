@@ -283,6 +283,14 @@ h3 {
   margin-top: 1rem;
 }
 
+.team-image p{
+  padding-top: 1rem;
+}
+
+.team-image img{
+  margin-top: 1rem;
+  cursor: pointer;
+}
 .card-single-header h4 {
   color: grey;
   margin-bottom: .75rem;
