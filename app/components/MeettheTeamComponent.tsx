@@ -32,7 +32,7 @@ const teamMembers = [
 const MeettheTeamComponent = () => {
     return (
         <section className='meettheteam'>
-            <div className='binca'>
+            <div className='bincat'>
                 <h2>Meet The Team</h2>
             </div>
             <div className='meettheteamheader'>

@@ -394,7 +394,7 @@ h3 {
 }
 
 .middlesection {
-  background-color: #000000;
+  background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -407,6 +407,10 @@ h3 {
 
 .standout {
   background-color: #000000;
+  background-image: url("/images/abtng.png");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
 }
 
 .standoutpage {
@@ -444,6 +448,7 @@ h3 {
   background-color: #100c09;
   padding: 2rem;
   border-radius: 1rem;
+  border: 1px solid #2a2a2a;
 }
 
 .standoutcard h3 {
@@ -693,6 +698,10 @@ h3 {
   font-weight: 900;
 }
 
+.deflationary p{
+  color: white;
+}
+
 .teknomheader h1 {
   color: #9b7663;
   font-weight: 900;
@@ -700,13 +709,13 @@ h3 {
 }
 
 .teknomheader h2 {
-  color: #000000;
+  color: #fff;
   font-weight: 900;
   margin: 1rem 0rem;
 }
 
 .teknomheader p {
-  color: #000000;
+  color: #fff;
   margin-bottom: 1rem;
 }
 
@@ -782,7 +791,7 @@ h3 {
   background-image: url("/images/contacts.png");
   background-size: cover;
   background-position: center;
-  height: 60vh;
+  height: 80vh;
   display: flex;
   align-items: center;
 }
@@ -919,11 +928,12 @@ h3 {
   width: 100%;
   transition: all 0.3s ease-in-out;
   background-color: transparent;
+  z-index: 1000;
 }
 
 
 .navbar.scrolled {
-  background-color: transparent;
+  background-color: #000;
 }
 
 nav {
@@ -935,18 +945,18 @@ nav {
 }
 
 .navbar {
-  padding: .75rem 2rem;
+  padding: .75rem 1rem;
 }
 
 .navbar ul {
   display: flex;
   list-style: none;
-  color: #9b7663;
+  color: #fff;
   align-items: center;
 }
 
 .navbar ul li {
-  margin-right: 2rem;
+  margin-right: 0.5rem;
 }
 
 .mainwallet {
@@ -1216,4 +1226,53 @@ nav {
   align-items: center;
   height: 100%;
   border-radius: 2rem;
+}
+
+
+
+/* Dropdown Menu */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownButton {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dropdownButton:hover {
+  background-color: #0056b3;
+}
+
+.dropdownMenu {
+  position: absolute;
+  right: 25px;
+  margin-top: 5px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+
+.dropdownItem {
+  width: 100%;
+  padding: 5px 15px;
+  text-align: left;
+  background: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dropdownItem:hover {
+  background: #f0f0f0;
 }

@@ -4,10 +4,14 @@ import React from 'react'
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { Wallet, AlignJustify } from "lucide-react";
+import { useRouter } from "next/navigation"; // Use "next/router" if using Pages Router
+
 
 const NavigationComponent = () => {
 
     const [isScrolled, setIsScrolled] = useState(false);
+    const [open, setOpen] = useState(false);
+    const router = useRouter();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -30,19 +34,24 @@ const NavigationComponent = () => {
                             width={120} // Set width
                             height={46} // Set height
                             priority // Ensures it loads faster
+                            onClick={() => router.push("/")}
                         />
                         <ul>
-                          
-                          
-                            
                             <li><a href="#">
-                            <Wallet size={40} />
+                                <Wallet size={30} />
                             </a>
                             </li>
                             <li>
                                 <a href="#">
-                                <AlignJustify size={30} />
+                                    <AlignJustify size={30} onClick={() => setOpen(!open)} />
                                 </a>
+                                {open && (
+                                    <div className="dropdownMenu">
+                                        <button className="dropdownItem" onClick={() => router.push("/milestone")}>Roadmap</button>
+                                        <button className="dropdownItem" onClick={() => alert("Settings Clicked")}>Settings</button>
+                                        <button className="dropdownItem" onClick={() => alert("Logout Clicked")}>Logout</button>
+                                    </div>
+                                )}
                             </li>
                         </ul>
                     </nav>
