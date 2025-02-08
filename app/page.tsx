@@ -2,8 +2,6 @@ import AboutComponent from "./components/AboutComponent";
 import ContactsComponent from "./components/ContactsComponent";
 import FooterComponent from "./components/FooterComponent";
 import HeaderComponent from "./components/HeaderComponent";
-import MeettheTeamComponent from "./components/MeettheTeamComponent";
-import MiddleComponent from "./components/MiddleComponent";
 import NavigationComponent from "./components/NavigationComponent";
 import TeknomicsComponent from "./components/TeknomicsComponent";
 import TheparkComponent from "./components/TheparkComponent";
@@ -18,10 +16,8 @@ export default function Home() {
       <HeaderComponent/>
       <TheparkComponent/>
       <AboutComponent/>
-      <MiddleComponent/>
       <Thestandout/>
       <TeknomicsComponent/>
-      <MeettheTeamComponent/>
       <ContactsComponent/>
       <FooterComponent/>
     </div>

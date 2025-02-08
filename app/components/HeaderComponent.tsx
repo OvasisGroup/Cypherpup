@@ -8,7 +8,7 @@ const HeaderComponent = () => {
         <section className='mainheader'>
             <div className='maheader'>
                 <div className='namesection'>
-                    <h1 className='bouncer animate__animated animate__slideInDown animate__fast'>Meet CypherPup:</h1>
+                    <h1 className='bouncer animate__animated animate__slideInDown animate__fast'>CypherPup:</h1>
                     <h2 className='bouncer animate__animated animate__slideInDown animate__fast'>The Blockchain&rsquo;s &apos;Goodest Boy&apos;</h2>
                     <p><span>CypherPup isn’t just a meme—</span>it’s a movement. Built on Cypherium, powered by innovation,
                         and driven by YOU.
@@ -49,12 +49,12 @@ const HeaderComponent = () => {
                         </div>
                     </div>
                 </div>
-                <div className='imagesection bounce'>
+                <div className='imagesection'>
                     <Image
-                        src="/images/1000090655.png" // Public folder path
+                        src="/images/madogi.png" // Public folder path
                         alt="CypherPup"
-                        width={300} // Set width
-                        height={522} // Set height
+                        width={700} // Set width
+                        height={657} // Set height
                         priority // Ensures it loads faster
                         layout="intrinsic" // Keeps aspect ratio based on width and height
                         className='responsive-image'
