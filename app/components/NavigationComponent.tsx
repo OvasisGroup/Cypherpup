@@ -29,10 +29,10 @@ const NavigationComponent = () => {
                 <div className='navigationheader'>
                     <nav className={`navbar ${isScrolled ? "scrolled" : ""}`}>
                         <Image
-                            src="/images/cypherpup-logo.png" // Public folder path
+                            src="/images/cypherpup_logo.png" // Public folder path
                             alt="Example Image"
-                            width={120} // Set width
-                            height={46} // Set height
+                            width={180} // Set width
+                            height={69} // Set height
                             priority // Ensures it loads faster
                             onClick={() => router.push("/")}
                         />

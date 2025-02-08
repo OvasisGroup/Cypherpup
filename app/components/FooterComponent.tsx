@@ -11,7 +11,7 @@ const FooterComponent = () => {
 
         <div className='footer-left'>
           <Image
-            src="/images/cypherpup-logo.png" // Public folder path
+            src="/images/cypherpup_logo.png" // Public folder path
             alt="Example Image"
             width={200} // Set width
             height={77} // Set height
