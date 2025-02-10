@@ -63,8 +63,7 @@ const HeaderComponent = () => {
                 </div>
 
             </div>
-
-        </section>
+            </section>
         </section>
     )
 }
