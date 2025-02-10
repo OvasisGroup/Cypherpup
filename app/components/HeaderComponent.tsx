@@ -5,6 +5,7 @@ import { ArrowUpRight, ArrowBigRightDash } from "lucide-react";
 
 const HeaderComponent = () => {
     return (
+        <section className='mainheader-bg'>
         <section className='mainheader'>
             <div className='maheader'>
                 <div className='namesection'>
@@ -63,6 +64,7 @@ const HeaderComponent = () => {
 
             </div>
 
+        </section>
         </section>
     )
 }
